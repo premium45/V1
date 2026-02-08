@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#667eea">
+    <title>Profile Links</title>
+    <link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiUHJvZmlsZSBMaW5rcyIsInNob3J0X25hbWUiOiJQcm9maWxlIiwic3RhcnRfdXJsIjoiLi8iLCJkaXNwbGF5Ijoic3RhbmRhbG9uZSIsImJhY2tncm91bmRfY29sb3IiOiIjNjY3ZWVhIiwidGhlbWVfY29sb3IiOiIjNjY3ZWVhIiwiaWNvbnMiOlt7InNyYyI6ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOSFVoRVVnQUFBTUFBQUFEQUNBWUFBQUJTM0d3SEFBQUFDWEJJV1hNQUFBc1RBQUFMRXdFQW1wd1lBQUFLVDJsRFFWUm9iM1J2YzJodmNDQkpRME1nY0hKdlptbHNaUUFBZUhwamRsTnVWRlB3RmpNek0zWlJReTRpQWxFdGRsVmhVSVVJRkpDaTRBVWtTWXFJUWtRU29naG9ka1ZVWUVSUUJVVUVCOG9pakFPT2pvQ01GVkVzRElvSzJBZmtJYUtPZzZPSWlzcjc0WHVqYTlhODkrYk4vclhYUGV1czg1Mnp6d2ZBQ0F5V1NETlJOWUFNcVVJZUVlQ0R4OFRHNGVRdVFJRUtKSEFBRUFpelpDRnovU01CQVBIK1BEd3JJc0FIdmdBQmVOTUxDQURBVFp2QU1CeUgvdy9xUXBsY0FZQ0VBY0Iwa1RoTENJQVVBRUI2amtLbUFFQkdBWUNkbUNaVEFLQUVBR0RMWDJMZ0FGQXRBVEFuZitiVEFJQ2QrSmw3QVFCYmxDRVZBYUNSQUNBVFpZaEVBR2c3QUt6UFZvcEZBRmd3QUJSU2tRNUFOZ3RBREJKVjJaSUFMQzNBTURPRUF1eUFBZ01BREJSaUlVcEFBUjdBR0RJSXNONEFBU1pBQlJHOGxjODhTdXVFT2NxQUFCNG1iSTh1U1E1UllGYkNDMXhCMWRYTGg0b3pra1hLeFEyWVFKaG1rQXV3bm1aR1RLQU5BL2c4OHdBQUtDUkZSSGdnL1A5ZU00T3JzN09ObzYyRGw4dDZyOEcveUppWXVQKzVjK3JjRUFBQU9GMGZ0SCtMQyt6R29BN0JvQnQvcUlsN2dSb1hndWdkZmVMWnJJUFFMVUFvT25hVi9OdytINDhQRVdoa0xuWjJlWGs1TmhLeEVKYlljcFhmZjVud2wvQVYvMXMrWDQ4L1BmMTRMN2lKSUV5WFlGSEJQamd3c3owVEtVY3o1SUpnR0xjNW85SC9MY0wvL3dkMHlMRVNXSzVXQ29VNDFFU2NZNUVNNG96ek1xVWlpVUtTS2NVbDB2OWs0dDhzK3dNKzN6VUFzR28rQVh1UkxhaGRZd1AyU3ljUVdIVEE0dmNBQVBLN2I4SFVLQWDEZ2lENGM5My8rOC8vVWVnSlFDQVprbVNjUUFBWGtRa0xsVEtzei9IQ0FBQVJLQ0JLckJCRy9UQkdDekFCaHpCQmR6QkMveGdOb1JDSk1UQ1FoQkNDbVNBSEhKZ0theUNRaWlHemJBZEttQXYxRUFkTk1CUmFJYVRjQTR1d2xXNERqMXdEL3BoQ0o3QktMeUJDUVJCeUFnVFlTSGFpQUZpaWxnampnWG1ZWDRJY0ZJQkJLTEpDREppQlJSSWt1Uk5VZ3hVb3BVSUZWSUhmSTljZ0k1aDF4R3VwRTd5QUF5Z3Z5R3ZFY3hsSTlHWVVUMVVETFZEdWFnM0dvUkdvZ3ZRWkhReG1vOFdvSnZRY3JRYVBZdzJvZWZRcTJnUDJvOCtROGN3d09nWUJ6UEViREF1eHNOQ3NUZ3NDWk5qeTdFaXJBeXJ4aHF3VnF3RHU0bjFZOCt4ZHdRU2dVWEFDVFlFZDBJZ1lSNUJTRmhNV0U3WVNLZ2dIQ1EwRWRvSk53a0RoRkhDSnlLVHFFdTBKcm9SL2NRWVlqSXhob0hRWm5FQVJlTWZkZExkdFdIWCtrL1VldEo5a2o5S0lSNm5rc05pZHZEK1l4K2NZcjFtREpCVmFPYVV0MnBvdlFaSFFrbG82V29KdlFjclFhUFl3Mm9lZlFxMmdQMm84K1E4Y3d3T2dZQnpQRWJEQXV4c05Dc1Rnc0NaTmp5N0VpckF5cnhocXdWcXdEdTRuMVk4K3hkdnRRZGxEM1lmVlAxditRTWp4aEhCSjFqdzlEQlkrWmo4dUdEWWJuamcrT1RuaVAzTDk2Znlufffu","sizes":"192x192","type":"image/png"},{"src":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOy9eZgkRZn3/43M","sizes":"512x512","type":"image/png"}]}">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #0ea5e9 100%);
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            opacity: 0;
+            animation: fadeInContent 0.5s ease-in-out 2.5s forwards;
+        }
+
+        .profile-circle {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 8px;
+            position: relative;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-circle::before {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border-radius: 50%;
+            padding: 4px;
+            background: linear-gradient(135deg, #c084fc, #60a5fa);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+        }
+
+        .profile-circle::after {
+            content: '';
+            position: absolute;
+            inset: -8px;
+            border-radius: 50%;
+            padding: 4px;
+            background: linear-gradient(135deg, #a855f7, #3b82f6);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            z-index: -1;
+        }
+
+        .profile-image {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .links-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .link-button {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 22px 40px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+            font-size: 28px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .link-button:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .link-button:active {
+            transform: translateY(0);
+        }
+
+        .icon {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .icon svg {
+            width: 100%;
+            height: 100%;
+            fill: white;
+        }
+
+        .tiktok-icon {
+            width: 40px;
+            height: 46px;
+        }
+
+        .whatsapp-icon {
+            width: 46px;
+            height: 46px;
+        }
+
+        #splash-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #0ea5e9 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            animation: fadeOut 0.5s ease-in-out 2.5s forwards;
+        }
+
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        .splash-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .splash-circle {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 8px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            animation: scaleIn 0.6s ease-out;
+        }
+
+        @keyframes scaleIn {
+            from {
+                transform: scale(0);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .splash-circle::before {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border-radius: 50%;
+            padding: 4px;
+            background: linear-gradient(135deg, #c084fc, #60a5fa);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+        }
+
+        .splash-circle::after {
+            content: '';
+            position: absolute;
+            inset: -8px;
+            border-radius: 50%;
+            padding: 4px;
+            background: linear-gradient(135deg, #a855f7, #3b82f6);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            z-index: -1;
+        }
+
+        .pulse-ring {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 3px solid rgba(255, 255, 255, 0.6);
+            animation: pulse 2s ease-out infinite;
+        }
+
+        .pulse-ring.delay-1 {
+            animation-delay: 0.5s;
+        }
+
+        .pulse-ring.delay-2 {
+            animation-delay: 1s;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(1.8);
+                opacity: 0;
+            }
+        }
+
+        .splash-logo {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            animation: rotate 2s ease-in-out;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .loading-dots {
+            display: flex;
+            gap: 12px;
+            animation: fadeInDots 0.6s ease-out 0.3s backwards;
+        }
+
+        @keyframes fadeInDots {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .loading-dots span {
+            width: 12px;
+            height: 12px;
+            background: white;
+            border-radius: 50%;
+            animation: bounce 1.4s infinite ease-in-out;
+        }
+
+        .loading-dots span:nth-child(1) {
+            animation-delay: -0.32s;
+        }
+
+        .loading-dots span:nth-child(2) {
+            animation-delay: -0.16s;
+        }
+
+        @keyframes bounce {
+            0%, 80%, 100% {
+                transform: scale(0);
+                opacity: 0.5;
+            }
+            40% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInContent {
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .profile-circle {
+                width: 240px;
+                height: 240px;
+            }
+
+            .link-button {
+                font-size: 24px;
+                padding: 18px 35px;
+            }
+
+            .icon {
+                width: 42px;
+                height: 42px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="splash-screen">
+        <div class="splash-content">
+            <div class="splash-circle">
+                <div class="pulse-ring"></div>
+                <div class="pulse-ring delay-1"></div>
+                <div class="pulse-ring delay-2"></div>
+                <img src="https://i.supaimg.com/7fb49a8a-9a9e-4dec-b7a0-bff68cb71c89.jpg" alt="Logo" class="splash-logo">
+            </div>
+            <div class="loading-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="profile-circle">
+            <img src="https://i.supaimg.com/7fb49a8a-9a9e-4dec-b7a0-bff68cb71c89.jpg" alt="Profile" class="profile-image">
+        </div>
+
+        <div class="links-container">
+            <a href="https://tiktok.com/@andika.py8" class="link-button" target="_blank">
+                <div class="icon tiktok-icon">
+                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3v178.8A162.6 162.6 0 1 1 185 188.3v89.9a74.6 74.6 0 1 0 52.2 71.2V0h88a121.2 121.2 0 0 0 1.9 22.2 122.2 122.2 0 0 0 21.4 54.6 120.5 120.5 0 0 0 39.9 36.7A121.5 121.5 0 0 0 448 128.1v81.8z"/>
+                    </svg>
+                </div>
+                <span>TikTok</span>
+            </a>
+
+            <a href="https://whatsapp.com/channel/0029Vb6wr1sJENxvvfB5g60e" class="link-button" target="_blank">
+                <div class="icon whatsapp-icon">
+                    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+                    </svg>
+                </div>
+                <span>Saluran Whatsapp</span>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register(
+                URL.createObjectURL(
+                    new Blob([`
+                        const CACHE = 'v1';
+                        self.addEventListener('install', e => {
+                            e.waitUntil(caches.open(CACHE).then(cache => 
+                                cache.addAll(['/'])
+                            ));
+                        });
+                        self.addEventListener('fetch', e => {
+                            e.respondWith(
+                                caches.match(e.request).then(r => r || fetch(e.request))
+                            );
+                        });
+                    `], {type: 'application/javascript'})
+                )
+            );
+        }
+
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                const splash = document.getElementById('splash-screen');
+                if (splash) splash.remove();
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
